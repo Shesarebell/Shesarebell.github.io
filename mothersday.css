@@ -36,10 +36,10 @@
     }
 }
 body {
-    padding: 50px;
+    padding:50px;
     text-align: center;
     position: relative;
-    background-image: url(fireworks-blue.JPG);
+    background-image: url(img/fireworks-blue.JPG);
     background-blend-mode: multiply;
     background-size: cover; 
     background-position: center;
@@ -57,15 +57,15 @@ img {
     position: relative;
     display: block;
     max-width: 100%;
-    margin: auto;
+    margin: 0 auto;
   
-   
 }
 
 section {
     display: block;
+    padding: 1em;
     width: 80%;
-    padding: 5em 2em;
+    text-align: center;
 }
 h1,
 h2,
@@ -81,33 +81,27 @@ h2 {
 }h3 {
     font-size: var(--fs-h3);
 }
-.section__title {
-margin-bottom: 0.25em;
-}
 .section__subtitle {
     font-size: var(--fs-h3);
-    margin-bottom: 0.25em
+    margin-bottom: 0.25em;
+    
 }
 .section__title--intro {
     font-family: var(--ff-secondary);
     font-weight: var(--fw-reg);
-    display: inline-block;
-    letter-spacing: 0.3em;
+    display: block;
+    letter-spacing: 0.2em;
+    text-align: center;
+
 }
 .section__title--intro strong {
-    display: inline-block;
+    display: block;
     font-family: var(--ff-primary);
-    font-weight: var(--fw-bold);
-    word-spacing: 2px;
-    letter-spacing: 0.5em;
-}
-.section__title--love {
-    
+    font-weight: var(--fw-bold); 
 }
 .section__subtitle--love{
     font-family: var(--ff-secondary);
     color: var(--clr-dark);
-    
-   
 }
+
 
