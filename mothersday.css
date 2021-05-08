@@ -39,7 +39,7 @@ body {
     padding: 0 50px 50px 50px;
     text-align: center;
     position: relative;
-    background-image: url(img/fireworks-blue.JPG);
+    background-image: url(fireworks-blue.JPG);
     background-blend-mode: multiply;
     background-size: cover; 
     background-position: center;
