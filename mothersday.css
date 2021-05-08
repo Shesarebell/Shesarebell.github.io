@@ -1,0 +1,113 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+:root {
+    --ff-primary:'Shadows Into Light'; 
+    --ff-secondary:'Josefin Slab';
+
+    --fw-reg:300;
+    --fw-bold:900;
+
+    --clr-light: #ffdfdf;
+    --clr-dark: #4b283b;
+    --clr-accent: #ffc8cd;
+    --clr-darkaccent: #1a1517;
+    --clr-text: white;
+    --clr-headings: #d49795;
+
+    --fs-h1: 2.7rem;
+    --fs-h2: 2.25rem;
+    --fs-h3: 1.25rem;
+    --fs-body: 1rem;
+
+    --bs: 0.25em 0.25em 07.5em rgba(0, 0, 0, 0.25),
+          0.125em 0.125em 0.25em rgba(0,0,0,.15);
+}
+
+@media (min-width: 800px) {
+    :root {
+        --fs-h1: 4.5rem;
+        --fs-h2: 3.75rem;
+        --fs-h3: 1.5rem;
+        --fs-body: 1.25rem;  
+    }
+}
+body {
+    padding: 0 50px 50px 50px;
+    text-align: center;
+    position: relative;
+    background-image: url(img/fireworks-blue.JPG);
+    background-blend-mode: multiply;
+    background-size: cover; 
+    background-position: center;
+    background-repeat:no-repeat;
+    background-color: var(--clr-dark);
+    color: var(--clr-light);
+    margin: 0;
+    font-family: var(--ff-secondary);
+    font-size: var(--fs-body);
+    line-height: 1.7em;
+    
+    
+}
+img {
+    position: relative;
+    display: block;
+    max-width: 100%;
+    margin: auto;
+  
+   
+}
+
+section {
+    display: block;
+    width: 80%;
+    padding: 5em 2em;
+}
+h1,
+h2,
+h3 {
+    line-height: 1.1em;
+    margin: 0;
+}
+h1 {
+    font-size: var(--fs-h1);
+}
+h2 {
+    font-size: var(--fs-h2);
+}h3 {
+    font-size: var(--fs-h3);
+}
+.section__title {
+margin-bottom: 0.25em;
+}
+.section__subtitle {
+    font-size: var(--fs-h3);
+    margin-bottom: 0.25em
+}
+.section__title--intro {
+    font-family: var(--ff-secondary);
+    font-weight: var(--fw-reg);
+    display: inline-block;
+    letter-spacing: 0.3em;
+}
+.section__title--intro strong {
+    display: block;
+    font-family: var(--ff-primary);
+    font-weight: var(--fw-bold);
+    word-spacing: 2px;
+    letter-spacing: 0.5em;
+}
+.section__title--love {
+    
+}
+.section__subtitle--love{
+    font-family: var(--ff-secondary);
+    color: var(--clr-dark);
+    
+   
+}
+
