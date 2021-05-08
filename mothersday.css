@@ -93,7 +93,6 @@ margin-bottom: 0.25em;
     font-weight: var(--fw-reg);
     display: inline-block;
     letter-spacing: 0.3em;
-    padding-left:150px;
 }
 .section__title--intro strong {
     display: block;
@@ -101,7 +100,6 @@ margin-bottom: 0.25em;
     font-weight: var(--fw-bold);
     word-spacing: 2px;
     letter-spacing: 0.5em;
-    padding-left:100px;
 }
 .section__title--love {
     
