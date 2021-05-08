@@ -36,7 +36,7 @@
     }
 }
 body {
-    padding: 0 50px 50px 50px;
+    padding: 50px;
     text-align: center;
     position: relative;
     background-image: url(fireworks-blue.JPG);
@@ -95,7 +95,7 @@ margin-bottom: 0.25em;
     letter-spacing: 0.3em;
 }
 .section__title--intro strong {
-    display: block;
+    display: inline-block;
     font-family: var(--ff-primary);
     font-weight: var(--fw-bold);
     word-spacing: 2px;
